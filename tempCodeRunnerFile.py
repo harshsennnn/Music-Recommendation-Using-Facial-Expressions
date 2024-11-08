@@ -1,1 +1,0 @@
-load_model('fer2013_mini_XCEPTION.102-0.66.hdf5')
