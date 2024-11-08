@@ -6,11 +6,11 @@ Here’s how you can contribute to this repository
 
 ## Found a bug?
 
-If you find a bug in the source code, you can help us by [submitting an issue](https://github.com/SGCODEX/Music-Recommendation-Using-Facial-Expressions/issues/new?assignees=&labels=bug&projects=&template=bug_report.yaml) to our GitHub Repository. Even better, you can submit a Pull Request with a fix.
+If you find a bug in the source code, you can help us by [submitting an issue](https://github.com/SGCODEX/Music-Recommendation-Using-Facial-Expressions/issues/new?assignees=&labels=bug) to our GitHub Repository. Even better, you can submit a Pull Request with a fix.
 
 ## Missing a feature?
 
-So, you've got an awesome feature in mind? Throw it over to us by [creating an issue](https://github.com/SGCODEX/Music-Recommendation-Using-Facial-Expressions/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yaml) on our GitHub Repo.
+So, you've got an awesome feature in mind? Throw it over to us by [creating an issue](https://github.com/SGCODEX/Music-Recommendation-Using-Facial-Expressions/issues/new?assignees=&labels=enhancement) on our GitHub Repo.
 
 If you don't feel ready to make a code contribution yet, no problem! You can also check out the [documentation issues](https://github.com/SGCODEX/Music-Recommendation-Using-Facial-Expressions/issues?q=is%3Aopen+is%3Aissue+label%3Adocumentation).
 
