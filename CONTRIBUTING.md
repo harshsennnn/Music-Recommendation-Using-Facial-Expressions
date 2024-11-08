@@ -80,7 +80,7 @@ Celebrate your success after your pull request is merged :-)
 
 Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
 
-[Code of Conduct]()
+[Code of Conduct](https://github.com/SGCODEX/Music-Recommendation-Using-Facial-Expressions/blob/main/CODE_OF_CONDUCT.md)
 
 Our Code of Conduct means that you are responsible for treating everyone on the project with respect and courtesy.
 
