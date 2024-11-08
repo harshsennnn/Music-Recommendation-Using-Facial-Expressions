@@ -1,10 +1,12 @@
-**Music-Recommendation-Using-Facial-Expressions**
+## Music-Recommendation-Using-Facial-Expressions
 
-**Project Overview**
+Please give us a ⭐ and fork this repo to get started. Thank you 🙌🙌.
+
+### Project Overview
 
 This Python-based project leverages the power of OpenCV for facial recognition and a pre trained model (`fer2013_mini_XCEPTION.102-0.66.hdf5` model) for expressions recognition. By analyzing real-time facial expressions, it recommends music tailored to your current mood. To enhance the user experience, the project integrates YouTube search functionalities using the `webbrowser` and `requests` libraries.
 
-**Installation**
+### Installation
 
 1.  **Clone the Repository:**
     ```bash
@@ -14,15 +16,15 @@ This Python-based project leverages the power of OpenCV for facial recognition a
     ```bash
     pip install -r requirements.txt --quiet
     ```
-
-**How to Run**
+    
+### How to Run
 
 1.  **Execute the Script:**
     ```bash
     python main_face.py
     ```
 
-**Tech Stack & Libraries**
+### Tech Stack & Libraries
 
 - Python: As the primary programming language for its versatility and extensive libraries.
 - OpenCV: For real-time image and video processing, including facial detection.
@@ -31,7 +33,7 @@ This Python-based project leverages the power of OpenCV for facial recognition a
 - webbrowser: To open web pages, specifically YouTube search results.
 - requests: For making HTTP requests to interact with web APIs (e.g., YouTube search).
 
-**How it Works / Usage**
+### How it Works / Usage
 
 1.  **Facial Detection:**
       - The script captures a video feed from your webcam.
@@ -46,9 +48,9 @@ This Python-based project leverages the power of OpenCV for facial recognition a
 
 - Demo Video: To be added
 
-**Main Features**
+### Main Features
 
-**Customization & Additional Considerations**
+### Customization & Additional Considerations
 
   - **Model:** Experiment with different pre-trained models or fine-tune the existing one for more accurate emotion recognition.
   - **Search Queries:** Adjust the search query construction to refine the music recommendations.
@@ -57,17 +59,17 @@ This Python-based project leverages the power of OpenCV for facial recognition a
   - **Performance:** Optimize the code for real-time performance, especially on resource-constrained devices.
   - **Error Handling:** Implement robust error handling to gracefully handle exceptions.
 
-**Contribution**
+### Contribution
 
 We welcome contributions to this project. Feel free to fork the repository, make improvements, and submit pull requests.
 We value all contributions, whether it's through code, documentation, creating demos or just spreading the word.
 Here are a few useful resources to help you get started:
 - For contributions, [Check out the contribution guide](https://github.com/SGCODEX/Music-Recommendation-Using-Facial-Expressions/blob/main/CONTRIBUTING.md) .
 
-**License**
+### License
 
 This project is licensed under the [MIT License](https://github.com/SGCODEX/Music-Recommendation-Using-Facial-Expressions/blob/main/LICENSE)
 
-**Contact**
+### Contact Us
 
 For any questions or issues, please contact us at shivampilot2004@gmail.com
