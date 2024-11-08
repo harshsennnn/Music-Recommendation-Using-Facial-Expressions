@@ -23,7 +23,7 @@ def play_first_song(final_emotion):
         webbrowser.open(video_url)
     
 # Load the pre-trained facial expression recognition model
-model = load_model('fer2013_mini_XCEPTION.102-0.66.hdf5')  # Replace 'path_to_model.h5' with the actual path to your model file
+model = load_model('model\fer2013_mini_XCEPTION.102-0.66.hdf5')
 
 # Define the list of emotions
 emotions = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
