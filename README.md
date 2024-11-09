@@ -4,7 +4,11 @@ Please give us a ⭐ and fork this repo to get started. Thank you 🙌🙌.
 
 ### Project Overview
 
-This Python-based project leverages the power of OpenCV for facial recognition and a pre trained model (`fer2013_mini_XCEPTION.102-0.66.hdf5` model) for expressions recognition. By analyzing real-time facial expressions, it recommends music tailored to your current mood. To enhance the user experience, the project integrates YouTube search functionalities using the `webbrowser` and `requests` libraries.
+This project is a Python-based application that uses OpenCV for real-time facial detection and a pre-trained deep learning model (fer2013_mini_XCEPTION.102-0.66.hdf5) to recognize and analyze facial expressions. By capturing live video feed from the user’s webcam, it identifies the user’s emotions—such as happiness, sadness, anger, or neutrality—based on facial cues.
+
+Once the emotion is detected, the application constructs a YouTube search query tailored to the identified mood. Using the webbrowser module, the application automatically opens relevant YouTube search results in the user’s default browser, allowing them to access music that aligns with their current emotional state. The requests library further supports this functionality by enabling API interactions for a smoother YouTube search experience.
+
+This project combines elements of computer vision and deep learning with web integration to create a personalized and interactive music recommendation system. It demonstrates the potential of AI-powered emotion detection in real-world applications, where user experience can be enhanced through real-time responsiveness and intelligent content recommendations.
 
 ### Installation
 
