@@ -10,7 +10,7 @@ import requests
 import re
 
 # Load the pre-trained facial expression recognition model
-model = load_model('model\fer2013_mini_XCEPTION.102-0.66.hdf5')
+model = load_model('code/model/fer2013_mini_XCEPTION.102-0.66.hdf5')
 emotions = ['Angry', 'Disgust', 'Fear', 'Happy', 'Sad', 'Surprise', 'Neutral']
 
 def detect_emotion(frame, face_cascade):
