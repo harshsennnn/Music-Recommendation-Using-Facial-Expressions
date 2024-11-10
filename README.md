@@ -46,7 +46,7 @@ This Python-based project leverages the power of OpenCV for facial recognition a
       - Based on the predicted emotion, the script constructs a YouTube search query.
       - The `webbrowser` module opens the search results in your default browser.
 
-- Demo Video: To be added
+- [Demo Video](https://www.youtube.com/watch?v=Qj5yUBjSr7I)
 
 ### Main Features
 
