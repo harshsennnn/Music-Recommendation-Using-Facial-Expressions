@@ -76,6 +76,29 @@ Remember, it's okay if your pull request is not perfect (no pull request ever is
 
 Celebrate your success after your pull request is merged :-)
 
+## PR Template
+
+The name and description of a PR is important, because it will eventually become the commit that shows up in main. Here are the guidelines for how to name and describe a PR.
+
+### PR name: [Feature Name]
+### PR description: Keyword #{issue-number} Short summary
+
+### For example: 
+Name: Added Readme File
+
+Description: Fixes #1
+
+Added Readme File for the project
+
+### Feature Name
+- A short-form version of the feature you're working on, or, alternatively the location you're making changes. Serves as an easy, at a glance, indicator of what the PR is touching.
+
+### Issue Number
+- Following the keyword is the issue number - this is the issue the ticket addresses.
+
+### Short Summary
+- This is a short summary of what your commit/PR is doing.
+
 ## Code of conduct
 
 Please note that this project is released with a Contributor Code of Conduct. By participating in this project you agree to abide by its terms.
