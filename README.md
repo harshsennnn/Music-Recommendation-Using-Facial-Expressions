@@ -53,6 +53,20 @@ This project combines elements of computer vision and deep learning with web int
 - [Demo Video](https://www.youtube.com/watch?v=Qj5yUBjSr7I)
 
 ### Main Features
+**1. Real-time Facial Detection and Emotion Recognition:**
+   - Uses OpenCV to capture live video feed from the user's webcam.
+   - Employs a pre-trained deep learning model (fer2013_mini_XCEPTION.102-0.66.hdf5) to accurately identify facial expressions.
+   - Recognizes a range of emotions, including happiness, sadness, anger, and neutrality.
+
+**2. Emotion-Based YouTube Search and Recommendation:** 
+   - Utilizes the webbrowser module to automatically open relevant search results in the user's default browser.
+   - Leverages the requests library to interact with YouTube's API for a more efficient search process.
+   - Constructs a YouTube search query based on the detected emotion
+
+**3. Intuitive User Interface:**
+   - Provides a simple and user-friendly interface to interact with the application.
+   - Displays the detected emotion in real-time.
+   - Presents a clear visual representation of the search results.
 
 ### Customization & Additional Considerations
 
