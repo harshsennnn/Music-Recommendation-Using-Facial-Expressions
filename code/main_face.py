@@ -11,17 +11,37 @@ os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 
 # Function to play the first song from youtube queries
 def play_first_song(final_emotion):
-    search_query = f"https://www.youtube.com/results?search_query={final_emotion}+background+tunes"
-    #webbrowser.open(search_query)
-    #search_query = f"https://www.youtube.com/results?search_query=Hindi+sad+songs"
-    response = requests.get(search_query)
-    html_content = response.text
-    match = re.search(r'/watch\?v=([^\"]+)', html_content)
-    if match:
-        video_id = match.group(1)
-        #video_url = f"https://www.youtube.com/watch?v={video_id}"
-        video_url = f"https://www.youtube.com/watch?v={video_id.encode('utf-8').decode('unicode_escape')}"
-        webbrowser.open(video_url)
+    try:
+        search_query = f"https://www.youtube.com/results?search_query={final_emotion}+background+tunes"
+        
+        # to fetch the search results page
+        response = requests.get(search_query)
+        
+        # HTTP status code 200 = request was successful 
+        if response.status_code != 200:
+            print("Failed to retrieve YouTube search results. Status code:", response.status_code)
+            return
+        
+        html_content = response.text
+        
+        match = re.search(r'/watch\?v=([^\"]+)', html_content)
+        if match:
+            video_id = match.group(1)
+            #video_url = f"https://www.youtube.com/watch?v={video_id}"
+            video_url = f"https://www.youtube.com/watch?v={video_id.encode('utf-8').decode('unicode_escape')}"
+            
+            # printing the video URL for debugging purposes
+            print("Opening YouTube video:", video_url)
+            
+            # opening the video in the default web browser
+            webbrowser.open(video_url)
+        else:
+            print("No video found for the given query.")
+
+    except requests.RequestException as e:
+        print("An error occurred while connecting to YouTube:", e)
+    except Exception as e:
+        print("An unexpected error occurred:", e)
     
 # Load the pre-trained facial expression recognition model
 model = load_model("code/model/fer2013_mini_XCEPTION.102-0.66.hdf5") 
